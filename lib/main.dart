@@ -26,7 +26,7 @@ class RandomWordsState extends State<RandomWords> {
         itemBuilder: /*1*/ (context, i) {
           while (i < 4)
             return _addDetailRow(++i);
-          return Divider();
+          return null;
         });
   }
 
